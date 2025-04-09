@@ -7,21 +7,39 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
     <link rel="icon" href="assets/images/ELtour-bg.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
 </head>
 <body style="background: linear-gradient(135deg, #0468aa, #69c6f0);">
     <header>
-        <div class="nav">
-            <ul style="background: linear-gradient(110deg, #ebebeb, #9bdfff);">
-                <li class="logo">
-                    <img src="assets/images/ELtour-logo.PNG" alt="Company Logo">
-                </li>
-                <b>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#our-services">Our Service</a></li>
-                    <li><a href="#photo-gallery">Photo Gallery</a></li>
-                </b>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg" style="background: linear-gradient(110deg, #ebebeb, #9bdfff);">
+            <div class="container">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/ELtour-logo.PNG" alt="Company Logo" height="50">
+              </a>
+          
+              <!-- Toggle button for mobile -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <!-- Navigation links -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#our-services">Our Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#photo-gallery">Photo Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h1 style="color: white;">EL Tour & Organizer</h1>
     </header>
         <main>
@@ -120,10 +138,12 @@
                 </div>
             </div>
         </section>
-        <p>&copy; 2024 EL Tour</p>
+        <p style="margin-bottom:0;">&copy; 2024 EL Tour</p>
     </footer>
     <!-- Whatsapp Floating -->
-    <a href="https://wa.me/6285542202185?text=Hi%20Qiscus" class="floating" target="_blank">
-    <i class="fab fa-whatsapp fab-icon"></i>
 </body>
 </html>
+<a href="https://wa.me/6285542202185?text=Hi%20Qiscus" class="floating" target="_blank">
+<i class="fab fa-whatsapp fab-icon"></i>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
